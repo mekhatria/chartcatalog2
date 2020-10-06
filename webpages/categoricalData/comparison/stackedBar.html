@@ -45,22 +45,18 @@
     />
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/creative.css" type="text/css" />
+    <link rel="stylesheet" href="../../../css/creative.css" type="text/css" />
   </head>
 
   <body id="page-top">
     <section id="Example">
       <div class="container">
         <div class="col-lg-6 col-sm-6">
-          <br />
           <a
             href="javascript:history.back()"
             class="btn btn-info bg-info btn-xl page-scroll"
             >Back to the main web page</a
           >
-
-          <br />
-          <br />
         </div>
       </div>
     </section>
@@ -70,16 +66,14 @@
         <!------------------------ Start Product ----------------------->
         <div class="col-lg-8 col-lg-offset-2">
           <h2 class="section-heading">Stacked bar charts</h2>
+          <p>Stacked bar charts are used to compare categorial data.</p>
           <p>
-            Stacked bar charts are used to compare categorial data.
-            <br /><br />
             The bars’ lengths are a good visual for comparison. The chart below
             shows the compare between many categorical data such different
             professions, and men vs women. The data on the x-axis represents the
             professions, and the data on the y-axis display the percentage of
             women vs. men in each profession.
           </p>
-          <br />
           <iframe
             height="500"
             style="width: 100%"
@@ -100,35 +94,79 @@
               >@mushigh</a
             >) on <a href="https://codepen.io">CodePen</a>.
           </iframe>
-          <br /><br /><br />
+
           <p>
             <i
-              ><b>Remark</b> <br />The stacked bar chart can be easily adapted
-              to suit the color-blind community (see below), by using a
-              monochrome chart:</i
-            >
+              ><b>Remark</b><br />
+
+              <ul>
+                <li>
+                  You have to be aware that stack charts share only the
+                  representation in each bar the percentage of the elements but
+                  not the real numbers. On the chart above, the audience doesn't
+                  know if the number of nurses is more significant equal, or
+                  smaller than the number of accountants, all the audience can
+                  gather from the chart is that the there is 9% men and 91%
+                  women as nurses, and 21% men compared to 79% women as
+                  accountants. To inform the audience, you can either add more
+                  details in the tooltip or add another chart for more
+                  information such as a bar chart below:
+                  <iframe
+                    height="500"
+                    style="width: 100%"
+                    scrolling="no"
+                    title="Swedish top 10 professions dominated by women (16-64 years) in 2017 (bar chart)"
+                    src="https://codepen.io/mushigh/embed/qBBQqXa?height=265&theme-id=light&default-tab=result"
+                    frameborder="no"
+                    loading="lazy"
+                    allowtransparency="true"
+                    allowfullscreen="true"
+                  >
+                    See the Pen
+                    <a href="https://codepen.io/mushigh/pen/qBBQqXa"
+                      >Swedish top 10 professions dominated by women (16-64
+                      years) in 2017 (bar chart)</a
+                    >
+                    by mustapha mekhatria (<a href="https://codepen.io/mushigh"
+                      >@mushigh</a
+                    >) on <a href="https://codepen.io">CodePen</a>.
+                  </iframe>
+                </li>
+                <li>
+                  The stacked bar chart can be easily adapted to suit the
+                  color-blind community (see below), by using a monochrome
+                  chart:<iframe
+                    height="500"
+                    style="width: 100%"
+                    scrolling="no"
+                    title="Swedish top 10 professions dominated by women (16-64 years) in 2017 (accessibility)"
+                    src="https://codepen.io/mushigh/embed/oNNJEgN?height=265&theme-id=light&default-tab=result"
+                    frameborder="no"
+                    loading="lazy"
+                    allowtransparency="true"
+                    allowfullscreen="true"
+                  >
+                    See the Pen
+                    <a href="https://codepen.io/mushigh/pen/oNNJEgN"
+                      >Swedish top 10 professions dominated by women (16-64
+                      years) in 2017 (accessibility)</a
+                    >
+                    by mustapha mekhatria (<a href="https://codepen.io/mushigh"
+                      >@mushigh</a
+                    >) on <a href="https://codepen.io">CodePen</a>.
+                  </iframe>
+                </li>
+                <li>
+                  Learn more about how to create a
+                  <a
+                    href="https://api.highcharts.com/highcharts/series.bar.stack"
+                    target="_default"
+                    >stacked bar chart</a
+                  >.
+                </li>
+              </ul>
+            </i>
           </p>
-          <br />
-          <iframe
-            height="500"
-            style="width: 100%"
-            scrolling="no"
-            title="Swedish top 10 professions dominated by women (16-64 years) in 2017 (accessibility)"
-            src="https://codepen.io/mushigh/embed/oNNJEgN?height=265&theme-id=light&default-tab=result"
-            frameborder="no"
-            loading="lazy"
-            allowtransparency="true"
-            allowfullscreen="true"
-          >
-            See the Pen
-            <a href="https://codepen.io/mushigh/pen/oNNJEgN"
-              >Swedish top 10 professions dominated by women (16-64 years) in
-              2017 (accessibility)</a
-            >
-            by mustapha mekhatria (<a href="https://codepen.io/mushigh"
-              >@mushigh</a
-            >) on <a href="https://codepen.io">CodePen</a>.
-          </iframe>
         </div>
 
         <div class="col-lg-8 col-lg-offset-2 text-center">

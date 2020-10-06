@@ -496,7 +496,10 @@ body {
 img,
 iframe,
 p,
-h1 {
+h1,
+li,
+ol,
+b {
   margin-top: 10px;
   margin-bottom: 10px;
 }

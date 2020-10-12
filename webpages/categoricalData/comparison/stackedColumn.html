@@ -52,15 +52,11 @@
     <section id="Example">
       <div class="container">
         <div class="col-lg-6 col-sm-6">
-          <br />
           <a
             href="javascript:history.back()"
             class="btn btn-info bg-info btn-xl page-scroll"
             >Back to the main web page</a
           >
-
-          <br />
-          <br />
         </div>
       </div>
     </section>
@@ -69,29 +65,32 @@
       <div class="container">
         <!------------------------ Start Product ----------------------->
         <div class="col-lg-8 col-lg-offset-2">
-          <h2 class="section-heading">Bar charts</h2>
-          <p>Bar charts are used to compare categories with discrete data.</p>
+          <h2 class="section-heading">Stacked bar charts</h2>
+          <p>Stacked bar charts are used to compare categorial data.</p>
           <p>
-            The bars’ lengths are an excellent visual for comparison. According
-            to the chart below, in 2018, Austria has the largest organic farming
-            area shares in Europe with 24.1%, followed by Estonia with 20.6%,
-            and Sweden with 20.6%.
+            The columns' lengths are a good visual for comparison. The chart
+            below displays the comparsion among the top 10 energy producer
+            countries in terms of nuclear and renewable energy. The data on the
+            x-axis represents the countries, and the data on the y-axis display
+            the percentage of different energy produces for each country.
           </p>
-
           <iframe
             height="500"
             style="width: 100%"
             scrolling="no"
-            title="Bar chart"
-            src="https://codepen.io/mushigh/embed/bGpXPyp?height=265&theme-id=light&default-tab=result"
+            title="Top 10 nuclear vs renewable energy producers (2011)"
+            src="https://codepen.io/mushigh/embed/mdEyBoW?height=265&theme-id=light&default-tab=result"
             frameborder="no"
             loading="lazy"
             allowtransparency="true"
             allowfullscreen="true"
           >
             See the Pen
-            <a href="https://codepen.io/mushigh/pen/bGpXPyp">Bar chart</a> by
-            mustapha mekhatria (<a href="https://codepen.io/mushigh">@mushigh</a
+            <a href="https://codepen.io/mushigh/pen/mdEyBoW"
+              >Top 10 nuclear vs renewable energy producers (2011)</a
+            >
+            by mustapha mekhatria (<a href="https://codepen.io/mushigh"
+              >@mushigh</a
             >) on <a href="https://codepen.io">CodePen</a>.
           </iframe>
 
@@ -104,75 +103,72 @@
 
               <ul>
                 <li>
-                  For more clarity, feel free to provide an interactive
-                  <a
-                    href="https://api.highcharts.com/highcharts/chart.zoomType"
-                    target="_blank"
-                    >zooming capability</a
+                  You have to be aware that stack charts share only the
+                  percentage of the elements but not the real numbers. On the
+                  chart above, the audience doesn't know if the quantity of the
+                  hydropower energy produced in China is more significant,
+                  equal, or smaller than the quantity produced in Russia or
+                  Japan; all the audience can gather from the chart is that the
+                  hydropower produced in China represent 79% of the chinise
+                  renewable and nuclear energy production, where the hydropower
+                  geerated in Russia and Japan represent 49% and 36%. To share
+                  more details with the audience, you can either add more
+                  information in the tooltip or add another chart to help the
+                  audience to get the whole picture such as a column chart
+                  below:
+                  <iframe
+                    height="500"
+                    style="width: 100%"
+                    scrolling="no"
+                    title="Top 10 nuclear vs renewable energy producers (2011)"
+                    src="https://codepen.io/mushigh/embed/xxObppj?height=265&theme-id=light&default-tab=result"
+                    frameborder="no"
+                    loading="lazy"
+                    allowtransparency="true"
+                    allowfullscreen="true"
                   >
-                  or/and a fix labels on each bar:
-                  <img
-                    src="../../../img/portfolio/comparison/zoomingCapabilityBar.gif"
-                    class="img-responsive"
-                    alt=""
-                  />
+                    See the Pen
+                    <a href="https://codepen.io/mushigh/pen/xxObppj"
+                      >Top 10 nuclear vs renewable energy producers (2011)</a
+                    >
+                    by mustapha mekhatria (<a href="https://codepen.io/mushigh"
+                      >@mushigh</a
+                    >) on <a href="https://codepen.io">CodePen</a>.
+                  </iframe>
                 </li>
                 <li>
-                  Keep in mind that you can always adapte your chart to an
-                  accessible chart in case of you are comparing more than one
-                  category. You can either add a
+                  The stacked column chart can be easily adapted to suit the
+                  color-blind community (see below), by adding
                   <a
                     href="https://www.highcharts.com/docs/chart-design-and-style/pattern-fills"
                     target="-default"
                     >pattern fills</a
-                  >
-                  chart or a or a monochrome chart:
-                  <iframe
+                  >: chart:<iframe
                     height="500"
                     style="width: 100%"
                     scrolling="no"
-                    title="Bar chart"
-                    src="https://codepen.io/mushigh/embed/jOrEZov?height=265&theme-id=light&default-tab=result"
+                    title="Top 10 nuclear vs renewable energy producers (2011)"
+                    src="https://codepen.io/mushigh/embed/NWrPXyx?height=265&theme-id=light&default-tab=result"
                     frameborder="no"
                     loading="lazy"
                     allowtransparency="true"
                     allowfullscreen="true"
                   >
                     See the Pen
-                    <a href="https://codepen.io/mushigh/pen/jOrEZov"
-                      >Bar chart</a
-                    >
-                    by mustapha mekhatria (<a href="https://codepen.io/mushigh"
-                      >@mushigh</a
-                    >) on <a href="https://codepen.io">CodePen</a>.
-                  </iframe>
-                  <iframe
-                    height="500"
-                    style="width: 100%"
-                    scrolling="no"
-                    title="Bar chart"
-                    src="https://codepen.io/mushigh/embed/abZzYNv?height=265&theme-id=light&default-tab=result"
-                    frameborder="no"
-                    loading="lazy"
-                    allowtransparency="true"
-                    allowfullscreen="true"
-                  >
-                    See the Pen
-                    <a href="https://codepen.io/mushigh/pen/abZzYNv"
-                      >Bar chart</a
+                    <a href="https://codepen.io/mushigh/pen/NWrPXyx"
+                      >Top 10 nuclear vs renewable energy producers (2011)</a
                     >
                     by mustapha mekhatria (<a href="https://codepen.io/mushigh"
                       >@mushigh</a
                     >) on <a href="https://codepen.io">CodePen</a>.
                   </iframe>
                 </li>
-
                 <li>
                   Learn more about how to create a
                   <a
-                    href="https://www.highcharts.com/docs/chart-and-series-types/bar-chart"
+                    href="https://api.highcharts.com/highcharts/series.column.stack"
                     target="_default"
-                    >bar chart</a
+                    >stacked bar chart</a
                   >.
                 </li>
               </ul>
